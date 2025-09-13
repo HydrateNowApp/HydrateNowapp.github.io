@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const t=document.querySelector('#billing-toggle'),e=document.querySelectorAll('[data-plan="monthly"]'),n=document.querySelectorAll('[data-plan="yearly"]');t&&t.addEventListener('change',()=>{const a=t.checked;e.forEach(o=>o.style.display=a?'none':''),n.forEach(o=>o.style.display=a?'':'none')})});

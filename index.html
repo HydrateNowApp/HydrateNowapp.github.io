@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Smarter hydration, fewer nags — HydrateNow</title>
+<meta name="description" content="HydrateNow is a context-aware hydration tracker for iPhone that respects Focus and Sleep, integrates with Apple Health, and offers meaningful weekly insights—not just bar charts.">
+<meta property="og:title" content="Smarter hydration, fewer nags — HydrateNow">
+<meta property="og:description" content="HydrateNow is a context-aware hydration tracker for iPhone that respects Focus and Sleep, integrates with Apple Health, and offers meaningful weekly insights—not just bar charts.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="./assets/og.png">
+<link rel="icon" href="./assets/icon.png">
+<link rel="apple-touch-icon" href="./assets/icon.png">
+<link rel="stylesheet" href="./assets/styles.css">
+<script defer src="./assets/app.js"></script>
+</head>
+<body>
+<div class="container">
+<div class="nav">
+  <div class="kv">
+    <img src="./assets/icon.png" alt="HydrateNow" style="width:28px;height:28px;border:none">
+    <a class="brand" href="./index.html">HydrateNow</a>
+  </div>
+  <div class="kv" style="gap:10px;flex-wrap:wrap">
+    <a href="./index.html">Home</a>
+    <a href="./healthkit.html">HealthKit</a>
+    <a href="./subscriptions.html">Pricing</a>
+    <a href="./screenshots.html">Screenshots</a>
+    <a href="./support.html">Support</a>
+    <a href="./privacy.html">Privacy</a>
+    <a href="./terms.html">Terms</a>
+    <a href="./eula.html">EULA</a>
+    <a href="./press-kit.html">Press Kit</a>
+  </div>
+</div>
+
+<section class="hero">
+  <div class="card">
+    <span class="badge">iOS • HealthKit • Private by Design</span>
+    <h1 style="margin:.2em 0 0;font-size:44px;line-height:1.1">Smarter hydration, fewer nags.</h1>
+    <p style="color:var(--muted)">HydrateNow learns your routine and delivers timely, respectful reminders. It syncs with Apple Health, adapts to workouts and weather, and turns streaks into real, sustainable habits.</p>
+    <div class="kv" style="gap:12px;margin-top:8px;flex-wrap:wrap">
+      <a class="button" href="https://apps.apple.com" aria-label="Download on the App Store">Download on the App Store</a>
+      <a class="button secondary" href="./subscriptions.html">See Pricing</a>
+    </div>
+    <p class="small" style="margin-top:8px">Requires iOS 16+. Apple Health integration is optional and fully consent-based.</p>
+  </div>
+  <div class="card">
+    <img src="./assets/app-mock.png" alt="HydrateNow app screenshots">
+  </div>
+</section>
+
+<section class="grid features" style="margin-top:18px">
+  <div class="card">
+    <h3>Context-aware reminders</h3>
+    <p>Respects Sleep and Focus, predicts workout windows, and considers local heat index for smarter nudges.</p>
+  </div>
+  <div class="card">
+    <h3>Apple Health sync</h3>
+    <p>With your permission, reads workouts and contributes Water data. You control access at any time.</p>
+  </div>
+  <div class="card">
+    <h3>Meaningful insights</h3>
+    <p>Weekly patterns tied to activity & temperature. Celebrate consistency, not spammy badges.</p>
+  </div>
+</section>
+
+<section class="card" style="margin-top:18px">
+  <div class="kv" style="justify-content:space-between">
+    <div>
+      <h2 style="margin:0">Simple, honest pricing</h2>
+      <p class="small">Monetized via ads + optional Premium. Cancel anytime in Settings.</p>
+    </div>
+    <label class="kv small" for="billing-toggle" title="Toggle yearly billing">
+      Bill yearly
+      <input id="billing-toggle" type="checkbox" style="margin-left:8px">
+    </label>
+  </div>
+  <div class="pricing">
+    <div class="card">
+      <h3>Free</h3>
+      <div class="price">$0</div>
+      <p class="small">Ad-supported. Core tracking & reminders.</p>
+      <ul>
+        <li>Daily goal & logging</li>
+        <li>Context-aware reminders</li>
+        <li>Apple Health (write water)</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Premium</h3>
+      <div data-plan="monthly" class="price">$1.99<span class="small">/mo</span></div>
+      <div data-plan="yearly" class="price" style="display:none">$19.99<span class="small">/yr</span></div>
+      <p class="small">Insights, advanced reminders, widgets & more.</p>
+      <ul>
+        <li>Weekly insights & heat index</li>
+        <li>Workout-aware scheduling</li>
+        <li>iCloud sync & export</li>
+        <li>No ads</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Lifetime</h3>
+      <div class="price">$29.99</div>
+      <p class="small">One-time unlock of Premium features.</p>
+      <ul>
+        <li>All Premium features</li>
+        <li>All future updates</li>
+        <li>Priority support</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="card" style="margin-top:18px">
+  <h2 style="margin:0 0 8px">Screenshots</h2>
+  <p class="small">Preview what HydrateNow looks like in action. These are placeholders—<a href="./screenshots.html">see all</a>.</p>
+  <div class="grid" style="grid-template-columns:repeat(3,minmax(0,1fr))">
+    <img src="./assets/screenshots/iphone-1.png" alt="Track intake">
+    <img src="./assets/screenshots/iphone-2.png" alt="Context-aware reminders">
+    <img src="./assets/screenshots/iphone-3.png" alt="Apple Health sync">
+  </div>
+</section>
+
+<div class="footer">
+  <div class="grid two">
+    <div>
+      © 2025 HydrateNow. All rights reserved.
+      <br><span class="small">HydrateNow does not provide medical advice. Always follow your healthcare provider’s guidance.</span>
+    </div>
+    <div style="text-align:right">
+      <a href="./sitemap.xml">Sitemap</a> · <a href="./robots.txt">Robots</a> · <a href="./privacy.html">Privacy</a> · <a href="./terms.html">Terms</a>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
